@@ -2,7 +2,7 @@ import React from "react"
 import Header from "./components/Header"
 import HomePage from "./components/HomePage"
 import EmployeePage from "./components/EmployeePage"
-import "./index.css"
+import "./App.css"
 
 function App() {
   // State to hold the currently selected employee.
