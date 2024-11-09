@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 function EmployeeListItem({ employee, onClick }) {
   return (
@@ -9,7 +9,7 @@ function EmployeeListItem({ employee, onClick }) {
         <p>{employee.title}</p>
       </div>
     </div>
-  );
+  )
 }
 
-export default EmployeeListItem;
+export default EmployeeListItem

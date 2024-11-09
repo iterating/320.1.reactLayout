@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 function SearchBar({ onSearchChange }) {
   return (
@@ -8,7 +8,7 @@ function SearchBar({ onSearchChange }) {
       onChange={(e) => onSearchChange(e.target.value)}
       className="search-bar"
     />
-  );
+  )
 }
 
-export default SearchBar;
+export default SearchBar

@@ -1,8 +1,5 @@
-import React from 'react';
-import EmployeeListItem from './EmployeeListItem';
-
-
-
+import React from "react"
+import EmployeeListItem from "./EmployeeListItem"
 
 function EmployeeList({ employees, onEmployeeSelect }) {
   return (
@@ -15,8 +12,7 @@ function EmployeeList({ employees, onEmployeeSelect }) {
         />
       ))}
     </div>
-  );
+  )
 }
 
-
-export default EmployeeList;
+export default EmployeeList
