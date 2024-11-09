@@ -1,11 +1,12 @@
-import React, { useState } from "react"
+import React from "react"
 import Header from "./components/Header"
 import HomePage from "./components/HomePage"
 import EmployeePage from "./components/EmployeePage"
-import "./App.css"
+import "./index.css"
 
 function App() {
-  const [selectedEmployee, setSelectedEmployee] = useState(null)
+  // State to hold the currently selected employee.
+  const [selectedEmployee, setSelectedEmployee] = React.useState(null)
 
   // Render the main application component
   return (
@@ -14,8 +15,7 @@ function App() {
         // Render the EmployeePage if an employee is selected
         <EmployeePage
           employee={selectedEmployee}
-          goBack={() => setSelectedEmployee(null)} 
-          // Function to go back to the HomePage
+          goBack={() => setSelectedEmployee(null)}
         />
       ) : (
         // Render the HomePage if no employee is selected
@@ -23,5 +23,6 @@ function App() {
       )}
     </div>
   )
+}
 
 export default App

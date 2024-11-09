@@ -3,31 +3,32 @@
 }
 
 .header {
-  background-color: #007aff;
-  color: white;
+  background-color: #ffffff;
+  outline: 3px solid #00a1f7;
   padding: 10px;
   text-align: center;
 }
 
 .search-bar {
+  background-color: #ffffff;
+  outline: 3px solid #00a1f7;
   width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border-radius: 5px;
   border: 1px solid #ccc;
 }
 
 .employee-list {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid #ddd;
+  border: 1px solid #000000;
 }
 
 .employee-list-item {
   display: flex;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px solid #ddd;
+  border: 1px solid #000000;
   cursor: pointer;
 }
 
